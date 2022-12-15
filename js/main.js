@@ -1,3 +1,7 @@
+
+const date = new Date();
+document.querySelector('.year').innerHTML = date.getFullYear();
+
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function(){
     loader.style.display = "none";
