@@ -140,10 +140,113 @@
   object-fit: cover !important;
 }
 
-
-.work-img{
-  max-height: 415px !important;
-  /* max-width: 100%; */
+.portfolio-blocks .item {
+    border-radius: 0;
+    overflow: hidden;
+}
+.item:hover .overlay-color {
+  opacity: 0.5;
+}
+.item .overlay-color {
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease-in-out 0s;
+}
+.info-title{
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+.overlay-pic{
+  background: #121212 !important ;
+}
+body.overlay-is-grey .overlay-color {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  transition: all 0.5s ease-in-out 0s;
+  background: #121212 !important;
+  opacity: 0.5;
+}
+.item {
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-img-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  z-index: 1;
+  transition: all 0.5s ease-in-out 0s;
+}
+.portfolio-img-link {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  z-index: 1;
+  transition: all 0.5s ease-in-out 0s;
+}
+.item:hover .portfolio-img {
+  transform: scale(1.05);
+  transform-origin: center;
+}
+.item .portfolio-img {
+  display: block;
+  min-width: 100%;
+  object-fit: cover;
+  height: 350px;
+  transition: all 1s ease 0s;
+}
+.item:hover .icon {
+  pointer-events: auto;
+  opacity: 1;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.item .icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 3rem;
+  background: rgba(156, 79, 34, 0.8);
+  color: #fff;
+  font-size: 1.25rem;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  z-index: 5;
+  transition: all 0.25s ease-in-out 0s;
+}
+.item:hover .item-info {
+  transform: scaleX(1);
+  opacity: 1;
+}
+.item .item-info {
+  position: absolute;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  bottom: 0px;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  margin: 0;
+  opacity: 0;
+  z-index: 5;
+  background-color: rgba(18, 18, 18, 0.75);
+  transition: all 0.3s ease-out 0s;
+  text-align: center;
 }
 
 .overlay{
