@@ -1,0 +1,156 @@
+.services .demo-table{ 
+  height: 600px;
+}
+
+.box{
+  width: 650px;
+  height: 430px;
+  overflow: hidden;
+}
+
+.service-img{
+  width: 100%;
+  height: 100%; 
+  
+}
+
+.service-head{
+  font-weight: 750;
+  margin-bottom: 2rem;
+}
+
+.service-para{
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+.service .jumbotron{
+  margin-bottom: 0;
+}
+
+.contact-info{
+  min-height: 800px;
+  background: #121212;
+}
+
+.c-info .contact-info-card .icon {
+  align-items: center;
+  justify-content: center;
+  color: #9c4f22;
+  font-size: 1.75rem;
+  margin-right: 1rem;
+  margin-top: -0.25rem;
+}
+
+.c-info .contact-info-card .info {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #f1f1f1;
+  display: inline-block;
+  transition: all 0.25s ease-in-out 0s;
+}
+.c-info .contact-info-card .info:hover {
+    text-decoration: none;
+    transform: translateX(0.25rem);
+    cursor:pointer;
+}
+
+
+.c-info .contact-info-card .info-title {
+  text-transform: capitalize;
+  font-family: "Roboto slab", "sans-serif";
+  font-size: 1.45rem;
+  text-decoration: none;
+  cursor:default;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #9c4f22;
+}
+.contact-info-card .info-text {
+  color: #f1f1f1 !important;
+  opacity: 0.85 !important;
+}
+
+.contact-info-card .info-text {
+  /* text-transform: capitalize; */
+  font-size: 1rem;
+  font-weight: 600;
+  color: #5f5f5f;
+  margin-bottom: 0.5rem;
+  margin-left: 6%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.c-info .col-4{
+  flex: 0 0 33.3333333333%;
+  max-width: 22.22222%;
+}
+
+.message-form{
+  min-height: 900px;
+  background: #1f1f1f;
+}
+
+.main-form-wraper.input-boxed {
+  padding-top: 30px;
+}
+
+.main-form-wraper {
+  position: relative;
+}
+
+.main-form-wraper .input-wraper {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.main-form-wraper input[type=email], .main-form-wraper input[type=text], .main-form-wraper input[type=password], .main-form-wraper input[type=url], .main-form-wraper input[type=search], .main-form-wraper input[type=number], .main-form-wraper textarea {
+  display: block;
+  width: 100%;
+  font-weight: 300;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid rgba(156, 79, 34, 0.5);
+  transition: all 0.3s ease-in-out 0s;
+  background: rgba(0, 0, 0, 0);
+  color: #f1f1f1;
+}
+
+body.dark-theme .main-form-wraper label:not(.lbl-for-checkbox) {
+  color: #f1f1f1;
+}
+
+.main-form-wraper.input-boxed label:not(.lbl-for-checkbox) {
+  font-size: 1rem;
+  font-weight: 600;
+  top: -30px;
+  left: 0;
+  transition: all 0.3s ease-in-out 0s;
+}
+.main-form-wraper.input-boxed label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined label:not(.lbl-for-checkbox) {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: absolute;
+  font-size: 0.95rem;
+  left: 0;
+  color: #f1f1f1 ;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.main-form-wraper .req {
+  color: red;
+}
+.main-form-wraper.input-boxed input[type=email]:focus, .main-form-wraper.input-boxed input[type=text]:focus, .main-form-wraper.input-boxed input[type=password]:focus, .main-form-wraper.input-boxed input[type=url]:focus, .main-form-wraper.input-boxed input[type=search]:focus, .main-form-wraper.input-boxed input[type=number]:focus, .main-form-wraper.input-boxed textarea:focus {
+  border-color: #9c4f22;
+}
+
+.main-form-wraper.input-boxed input[type=email]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed input[type=text]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed input[type=password]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed input[type=url]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed input[type=search]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed input[type=number]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed textarea:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-boxed .input-wraper.has-text label, .main-form-wraper.input-under-lined input[type=email]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined input[type=text]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined input[type=password]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined input[type=url]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined input[type=search]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined input[type=number]:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined textarea:focus ~ label:not(.lbl-for-checkbox), .main-form-wraper.input-under-lined .input-wraper.has-text label, .main-form-wraper input[type=email]:focus ~ label, .main-form-wraper input[type=text]:focus ~ label, .main-form-wraper input[type=password]:focus ~ label, .main-form-wraper input[type=url]:focus ~ label, .main-form-wraper input[type=search]:focus ~ label, .main-form-wraper input[type=number]:focus ~ label, .main-form-wraper textarea:focus ~ label {
+  top: -30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9c4f22 !important;
+}
